@@ -20,9 +20,12 @@ public class RegistroStudenti {
         this.studenti = newArray;
     }
 
-    public void getStudenti() {
+    public String getStudenti() {
+        String output = "La classe è composta da: ";
         for (Studente studente : studenti) {
-            System.out.println(studente.valoriCompleta());
+            output = output + " " + studente.valoriCompleta() + " -";
+            // System.out.println(studente.valoriCompleta());
         }
+        return output;
     }
 }

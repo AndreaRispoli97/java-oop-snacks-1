@@ -31,7 +31,8 @@ public class Main {
         listStudenti.nuovoStudente(primoStudente2);
         listStudenti.nuovoStudente(primoStudente3);
         listStudenti.nuovoStudente(primoStudente4);
-        listStudenti.getStudenti();
+        // listStudenti.getStudenti();
+        System.out.println(listStudenti.getStudenti());
 
     }
 }
